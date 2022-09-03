@@ -1,0 +1,17 @@
+{
+  "name": "samuraibs-tests",
+  "version": "1.0.0",
+  "description": "Projeto de testes de aceitação de ponta a ponta em Cypress",
+  "main": "index.js",
+  "author": "Paulo Roberto",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "pg": "^8.7.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@faker-js/faker": "^7.4.0",
+    "D": "^1.0.0"
+  }
+}
