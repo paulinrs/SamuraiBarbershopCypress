@@ -7,7 +7,7 @@ describe('cadastro', function () {
 
         const user = {
             name: 'Arthur Ribeiro',
-            email: 'arthur.ribeiro@gmail.com',
+            email: 'arthur.rs@gmail.com',
             password: '002287'
         }
 
