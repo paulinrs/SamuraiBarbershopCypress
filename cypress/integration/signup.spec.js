@@ -29,8 +29,8 @@ describe('cadastro', function () {
 
     context('quando o email já existe', function () {
         const user = {
-            name: 'Paulo Roberto',
-            email: 'paulo.roberto@bugmail.com',
+            name: 'Roberto Jose dos Santos',
+            email: 'roberto.jose@bugmail.com',
             password: '002287',
             is_provider: true
         }
