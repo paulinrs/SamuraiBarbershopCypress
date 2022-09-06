@@ -1,21 +1,19 @@
-#
 </h1> <img src="https://user-images.githubusercontent.com/104467309/188473729-68d7615b-64dd-4478-b44d-1484b4db4141.png" width="250px"> 
  
-<div align="center">
  
-<div align="center"> 
+<div align=> 
 <img src="https://user-images.githubusercontent.com/104467309/188472249-f6d8df01-1aeb-4671-8b28-b48e2fa9396d.svg" width="350px">
 
-<h1 align="center">
-DESAFIO
-</h1>
+  
+# DESAFIO
+ 
+
  O desafio tem como objetivo avaliar o planejamento na criação de casos
 de testes e depois a Automatização dos Testes.
 
 
-<h1 align="center">
-Estratégia de testes para Samurai Barbershop
-</h1>
+# Estratégia de testes para Samurai Barbershop
+
 
 A estratégia de testes para o site Samurai Barbershop é dividida em três etapas: processo(cultura), testes exploratórios(manuais) e testes automatizados.
 
@@ -42,7 +40,7 @@ Os testes automatizados têm a função principal de verificar se o sistema est�
 
 · Ser uma rede de proteção, garantindo que os engenheiros possam alterar e melhorar o código sem a preocupação de quebrar funções já existentes.
 
-
+![projeto](https://user-images.githubusercontent.com/104467309/188699689-c782cdd9-a3c2-4b11-a2bf-9ff5bff18847.gif)
  ## Organização do Projeto  
 
 ```ruby
