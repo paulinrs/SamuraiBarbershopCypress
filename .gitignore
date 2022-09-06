@@ -1,3 +1,4 @@
-apps
 node_modules
 yarn.lock
+fixtures
+downloads
