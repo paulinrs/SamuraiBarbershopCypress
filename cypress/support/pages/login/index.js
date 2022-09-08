@@ -1,4 +1,5 @@
 
+import { el } from './elements'
 
 class LoginPage {
 
@@ -7,14 +8,14 @@ class LoginPage {
     }
 
     form(user) {
-        cy.get('input[placeholder$=mail]').type(user.email)
-        cy.get('input[placeholder=Senha]').type(user.password)
+        cy.get(el.email).type(user.email)
+        cy.get(el.password).type(user.password)
     }
 
-    submit(){
-        cy.get('button[type=submit]').click()
+    submit() {
+        cy.get(el.signIn).click()
     }
-    
+
 }
 
 export default new LoginPage()

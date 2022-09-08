@@ -1,6 +1,7 @@
 
-
+import { el } from './elements'
 import header from "../../components/header"
+
 class DashPage {
 
     constructor() {
