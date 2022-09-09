@@ -4,14 +4,6 @@
 <div align=> 
 <img src="https://user-images.githubusercontent.com/104467309/188472249-f6d8df01-1aeb-4671-8b28-b48e2fa9396d.svg" width="350px">
 
-  
-# DESAFIO
- 
-
- O desafio tem como objetivo avaliar o planejamento na criação de casos
-de testes e depois a Automatização dos Testes.
-
-
 # Estratégia de testes para Samurai Barbershop
 
 
