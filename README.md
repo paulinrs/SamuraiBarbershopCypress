@@ -72,7 +72,7 @@ Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de teste
 ## Executando o projeto
 
 > Clone o projeto
-$ git clone https://github.com/paulinrs/SamuraiBarbershopCypress.git
+`$ git clone git@github.com:paulinrs/SamuraiBarbershopCypress.git`
 
 ## Instruções de execução 
 Use o comando listado abaixo no terminal, diretamente na pasta raiz:
