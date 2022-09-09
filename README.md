@@ -32,7 +32,7 @@ Os testes automatizados têm a função principal de verificar se o sistema est�
 
 · Ser uma rede de proteção, garantindo que os engenheiros possam alterar e melhorar o código sem a preocupação de quebrar funções já existentes.
 
-<img align="leaft" alt="Gif" height="500" width="1000" style="border-radius:50px;"  src="https://user-images.githubusercontent.com/104467309/189443245-8d8a6ec6-25a8-4c51-98da-b999d53c9711.gif">
+<img align="leaft" alt="Gif" height="500" width="1000" style="border-radius:50px;"  src="https://user-images.githubusercontent.com/104467309/189445396-bdffb13e-b50f-44c9-9fac-03be9262954a.gif">
 
  ## Organização do Projeto  
 
