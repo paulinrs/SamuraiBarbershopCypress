@@ -55,3 +55,35 @@ Os testes automatizados têm a função principal de verificar se o sistema est�
 `Cypress` é um framework de testes, de código aberto e de fácil configuração.
 Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes. À medida que o script é escrito, é possível acompanhá-lo, o que auxilia o Analista de Testes (QA) na visualização de quais partes do código necessitam de ajustes.
 
+## :hammer_and_wrench: Tecnologias Utilizadas
+
+- [Cypress](https://www.cypress.io/)
+- [Node.js](https://nodejs.org/en/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+
+## :checkered_flag: Dependências para executar localmente
+
+- Ter uma IDE de sua preferência
+- instalar o node.js [Download](https://nodejs.org/dist/v16.17.0/node-v16.17.0-x64.msi)
+- Instalar cypress: => npm i cypress@9.7.0 -D
+
+
+## Executando o projeto
+
+> Clone o projeto
+$ git clone https://github.com/paulinrs/SamuraiBarbershopCypress.git
+
+## Instruções de execução 
+Use o comando listado abaixo no terminal, diretamente na pasta raiz:
+
+`npx cypress open`
+
+Depois da interface do Cypress aberta escolher a pasta do projeto.
+
+Após isso, é só escolher a spec desejada e assistir a execução dos testes.
+
+
+
+## Feito com ❤️ por <a href="https://www.linkedin.com/in/paulinnrs/">Paulo Roberto</a> :wave: Entre em contato!
+
