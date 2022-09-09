@@ -23,7 +23,7 @@ describe('cadastro', function () {
             signupPage.go()
             signupPage.form(user)
             signupPage.submit()
-            signupPage.toast.sholdHaveTest('Agora você se tornou um(a) Samurai, faça seu login para ver seus agendamentos!')
+            signupPage.toast.sholdHaveText('Agora você se tornou um(a) Samurai, faça seu login para ver seus agendamentos!')
         })
     })
 
@@ -43,7 +43,7 @@ describe('cadastro', function () {
             signupPage.go()
             signupPage.form(user)
             signupPage.submit()
-            signupPage.toast.sholdHaveTest('Email já cadastrado para outro usuário.')
+            signupPage.toast.sholdHaveText('Email já cadastrado para outro usuário.')
         })
     })
 
