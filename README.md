@@ -66,13 +66,13 @@ Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de teste
 
 - Ter uma IDE de sua preferência
 - instalar o node.js [Download](https://nodejs.org/dist/v16.17.0/node-v16.17.0-x64.msi)
-- Instalar cypress: => npm i cypress@9.7.0 -D
+- Instalar cypress: => `npm i cypress@9.7.0 -D`
 
 
 ## Executando o projeto
 
 > Clone o projeto
-`$ git clone git@github.com:paulinrs/SamuraiBarbershopCypress.git`
+`git clone git@github.com:paulinrs/SamuraiBarbershopCypress.git`
 
 ## Instruções de execução 
 Use o comando listado abaixo no terminal, diretamente na pasta raiz:
@@ -81,7 +81,7 @@ Use o comando listado abaixo no terminal, diretamente na pasta raiz:
 
 Depois da interface do Cypress aberta escolher a pasta do projeto.
 
-Após isso, é só escolher a spec desejada e assistir a execução dos testes.
+Após isso, é só escolher a `spec` desejada e assistir a execução dos testes.
 
 
 
