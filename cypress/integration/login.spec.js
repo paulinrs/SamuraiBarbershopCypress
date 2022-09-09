@@ -11,9 +11,15 @@ describe('login', function () {
             name: 'Paulo Roberto',
             email: 'paulo.roberto@bugmail.com',
             password: '002287',
+            is_provider: true
         }
 
-        it('Deve logar com sucesso', function () {
+        before(function () {
+            cy.postUser(user)
+        })
+
+
+         it('Deve logar com sucesso', function () {
 
             loginPage.go()
             loginPage.form(user)
