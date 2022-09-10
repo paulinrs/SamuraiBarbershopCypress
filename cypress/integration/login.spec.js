@@ -18,7 +18,6 @@ describe('login', function () {
         })
 
         it('Deve logar com sucesso', function () {
-
             loginPage.go()
             loginPage.form(user)
             loginPage.submit()
@@ -45,7 +44,6 @@ describe('login', function () {
         })
 
         it('deve notificar erro de credenciais', function () {
-
             loginPage.go()
             loginPage.form(user)
             loginPage.submit()
@@ -54,31 +52,50 @@ describe('login', function () {
         })
     })
 
-    context.only('quando o formato do email e inválido', function () {
+    context('quando o formato do email e inválido', function () {
 
         const emails = [
-             'paulo#bugmail.com.br',
-             'hotmail.com',
-             '@gmail.com',
-             '@',
-             'paulin@',
-             '111',
-             '$&*^&',
-             'crf1985'
+            'paulo#bugmail.com.br',
+            'hotmail.com',
+            '@gmail.com',
+            '@',
+            'paulin@',
+            '111',
+            '$&*^&',
+            'crf1985'
         ]
 
         before(function () {
             loginPage.go()
         })
 
-    emails.forEach(function (email){
-        it('não deve logar com email: ' + email, function () {
-            const user = {email: email, password: '002287'}
+        emails.forEach(function (email) {
+            it('não deve logar com email: ' + email, function () {
+                const user = { email: email, password: '002287' }
 
-            loginPage.form(user)
-            loginPage.submit()
-            loginPage.alertHaveText('Informe um email válido')
+                loginPage.form(user)
+                loginPage.submit()
+                loginPage.alert.haveText('Informe um email válido')
+            })
         })
-    })  
-  }) 
-})
+    })
+
+    context('quando não prencho nenhum dos campos', function () {
+
+        const alertMessages = [
+            'E-mail é obrigatório',
+            'Senha é obrigatória'
+        ]
+
+        before(function () {
+            loginPage.go()
+            loginPage.submit()
+        })
+
+        alertMessages.forEach(function (alert) {
+            it('deve exibir ' + alert.toLowerCase(), function () {
+                loginPage.alert.haveText(alert)
+            })
+        })
+    })
+})  
