@@ -1,0 +1,23 @@
+{
+  "success": {
+    "name": "Arthur Ribeiro",
+    "email": "arthur.rs@bugmail.com",
+    "password": "002287"
+  },
+  "email_dup": {
+    "name": "Roberto Jose dos Santos",
+    "email": "roberto.jose@bugmail.com",
+    "password": "002287",
+    "is_provider": true
+  },
+  "email_inv": {
+      "name": "Angela Ribeiro",
+      "email": "angela.ribeiro$bugmail.com",
+      "password": "002287"
+  },
+  "short_password":{
+    "name": "Josilda Santos",
+    "email": "josilda@bugmail.com",
+    "password": "null"
+  }
+}
