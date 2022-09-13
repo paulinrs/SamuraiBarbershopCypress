@@ -12,7 +12,7 @@ A estratégia de testes para o site Samurai Barbershop é dividida em três etap
 ## Processos de documentação
 
 Nesta etapa vamos buscar o entendimento necessário para a criação da estratégia de teste, organização e documentação dos cenários.
-`
+
 
 ## Testes manuais exploratório no site
 
