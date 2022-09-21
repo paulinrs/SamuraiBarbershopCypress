@@ -73,7 +73,7 @@ Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de teste
 - [Cypress](https://www.cypress.io/)
 - [Node.js](https://nodejs.org/en/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
+- [Insomnia](https://insomnia.rest/download)
 
 ## :checkered_flag: Dependências para executar localmente
 
