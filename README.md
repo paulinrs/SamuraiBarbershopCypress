@@ -1,16 +1,16 @@
 </h1>
+
+<img src="https://user-images.githubusercontent.com/104467309/188473729-68d7615b-64dd-4478-b44d-1484b4db4141.png" width="250px"> 
+
+</h1>
+
+</h1>
 <h1 align="center">
 
 <img src="https://user-images.githubusercontent.com/104467309/188472249-f6d8df01-1aeb-4671-8b28-b48e2fa9396d.svg" width="350px">
 
 </h1>
 
-</h1>
-<h1 align="center">
-
-<img src="https://user-images.githubusercontent.com/104467309/188473729-68d7615b-64dd-4478-b44d-1484b4db4141.png" width="250px"> 
-
-</h1>
 
 ## Estratégia de testes para Samurai Barbershop
 
@@ -48,13 +48,16 @@ Os testes automatizados têm a função principal de verificar se o sistema est�
    ├── .github/workflows                  
      ├── cypress.yml                     # Arquivos do Github Actions para executar o CI.
    ├── cypress 
-     ├── integration                    
+     ├── fixtures                        # Massa de testes.
+     ├── integration  
+        ├── dash.spec.js                 # Suite de teste para agendamento de cliente.
         ├── login.spec.js                # Suite de teste para tela de login. 
-        ├── onair.spec.js                # Suite de teste para webapp online
-        ├── signup.spec.js               # Suite de teste para tela de cadastro
-     ├── plugins                         # implementação page object
-     ├── support                         # implementação page object
-   ├── README.md                         # Documentação do projeto           
+        ├── onair.spec.js                # Suite de teste para webapp online.
+        ├── signup.spec.js               # Suite de teste para tela de cadastro.
+        ├── recoverypass.spec.js         # Suite de teste para troca de senha.
+     ├── plugins                         # implementação page object.
+     ├── support                         # implementação page object.
+   ├── README.md                         # Documentação do projeto.          
    ├── cypress.json                      # configuração para a execução do cypress.            
    └── package.json                      # configuração para a execução do cypress.                       
 ```   
