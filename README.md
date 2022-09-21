@@ -1,10 +1,18 @@
-</h1> <img src="https://user-images.githubusercontent.com/104467309/188473729-68d7615b-64dd-4478-b44d-1484b4db4141.png" width="250px"> 
- 
- 
-<div align=> 
+</h1>
+<h1 align="center">
+
 <img src="https://user-images.githubusercontent.com/104467309/188472249-f6d8df01-1aeb-4671-8b28-b48e2fa9396d.svg" width="350px">
 
-# Estratégia de testes para Samurai Barbershop
+</h1>
+
+</h1>
+<h1 align="center">
+
+<img src="https://user-images.githubusercontent.com/104467309/188473729-68d7615b-64dd-4478-b44d-1484b4db4141.png" width="250px"> 
+
+</h1>
+
+## Estratégia de testes para Samurai Barbershop
 
 
 A estratégia de testes para o site Samurai Barbershop é dividida em três etapas: processo(cultura), testes exploratórios(manuais) e testes automatizados.
