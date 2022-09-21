@@ -11,9 +11,11 @@
 
 </h1>
 
-
-## Estratégia de testes para Samurai Barbershop
-
+</h1>
+<h1 align="center">
+ 
+Estratégia de Testes
+ </h1>
 
 A estratégia de testes para o site Samurai Barbershop é dividida em três etapas: processo(cultura), testes exploratórios(manuais) e testes automatizados.
 
