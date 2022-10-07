@@ -1,8 +1,9 @@
 {
-    "baseUrl":"http://localhost:3000",
-    "apiServer":"http://localhost:3333",
+    "baseUrl":"https://samurai-web-prs.herokuapp.com/",
+    "apiServer":"https://samurai-api-prs.herokuapp.com",
     "viewportWidth": 1440,
     "viewportHeight":900,
+    "defaultCommandTimeout":30000,
     "dbConfig":{
         "host":"batyr.db.elephantsql.com",
         "user":"aqesebwc",

@@ -2,10 +2,10 @@ import { el } from './elements'
 
 class Header {
 
-    userLoggedIn(userName) {
+    new_userLoggedIn(new_user) {
         cy.get(el.fullName)
             .should('be.visible')
-            .should('have.text', userName)
+            .should('have.text', new_user)
     }
 
 }

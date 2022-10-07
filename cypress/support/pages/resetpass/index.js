@@ -6,10 +6,14 @@ class ResetPassPage{
 
     constructor(){
         this.toast = toast
+        
     }
 
     go(token){
         cy.visit('/reset-password?token=' + token)
+
+        cy.contains(el.title)
+            .should('be.visible')
     }
 
     form(pass, pass2){

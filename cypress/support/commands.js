@@ -61,7 +61,7 @@ Cypress.Commands.add('recoveryPass', function (email) {
 
         cy.task('findToken', email)
             .then(function (result){
-                //console.log(result.token)
+                console.log(result.token)
                 Cypress.env('recoveryToken', result.token)
             })
     })
@@ -70,7 +70,7 @@ Cypress.Commands.add('recoveryPass', function (email) {
 Cypress.Commands.add('createAppointment', function (hour) {
 
     let now = new Date()
-    now.setDate(now.getDate() + 2)
+    now.setDate(now.getDate() + 1)
 
     Cypress.env('appointmentDate', now)
 
@@ -81,6 +81,8 @@ Cypress.Commands.add('createAppointment', function (hour) {
         date: date
     }
 
+    cy.log(payload)
+    
     cy.request({
         method: 'POST',
         url: apiServer + '/appointments',

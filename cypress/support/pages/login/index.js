@@ -12,6 +12,9 @@ class LoginPage {
 
     go() {
         cy.visit('/')
+
+        cy.contains(el.title)
+            .should('be.visible')
     }
 
     form(user) {
@@ -25,6 +28,11 @@ class LoginPage {
 
     submit() {
         cy.get(el.signIn).click()
+        
+    }
+
+    should(){
+        cy.get(el.name)
     }
 }
 

@@ -3,7 +3,7 @@ import { el } from './elements'
 
 class Toast {
     sholdHaveText(expectText) {
-        cy.get(el.toast, { timeout: 10000 })
+        cy.get(el.toast)
             .should('be.visible')
             .find('p')
             .should('have.text', expectText)

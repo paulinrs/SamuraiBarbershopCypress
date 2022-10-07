@@ -4,25 +4,20 @@ import dashPage from '../support/pages/dash'
 
 describe('login', function () {
 
-    context('quando o usuário é muito bom', function () {
+    before(function () {
+        cy.fixture('login').then(function (login) {
+            this.new_user = login.new_user
 
-        const user = {
-            name: 'Paulo Roberto',
-            email: 'paulo.roberto@bugmail.com',
-            password: '002287',
-            is_provider: true
-        }
-
-        before(function () {
-            cy.postUser(user)
         })
+    })
+    context('quando o usuário é muito bom', function () {
 
         it('Deve logar com sucesso', function () {
             loginPage.go()
-            loginPage.form(user)
+            loginPage.form(this.new_user)
             loginPage.submit()
-
-            dashPage.header.userLoggedIn(user.name)
+            loginPage.should()
+            
         })
     })
 
