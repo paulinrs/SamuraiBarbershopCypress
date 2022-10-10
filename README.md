@@ -70,15 +70,15 @@ Podendo ser executado também manualmente no menu de Actions!<br/>
 
 ![Github-Actions](https://user-images.githubusercontent.com/104467309/194901959-d44f12dc-b462-409f-8fcd-f265932f6e41.jpg)
 
+O `CI` esta integrado com o `Cypress Dashboard` enviando os logs resultado dos testes com `evidências ex: video e screenshots` para armazenamento.<br/> 
+## Meu projeto no `Cypress.io`=> [Samurai Barber Shop](https://dashboard.cypress.io/projects/jq4ae3/runs/1/specs)
+
+![Dashboard-Cypress](https://user-images.githubusercontent.com/104467309/194905032-1920d698-f21c-45dc-bcbe-b626a5f6d18f.gif)
+
 ## Por quê utilizar o Cypress?
 
 `Cypress` é um framework de testes, de código aberto e de fácil configuração.
 Totalmente baseado em uma nova arquitetura, isenta de outros frameworks de testes, o Cypress apresenta um painel próprio que exibe exatamente o que está acontecendo durante a execução dos testes. À medida que o script é escrito, é possível acompanhá-lo, o que auxilia o Analista de Testes (QA) na visualização de quais partes do código necessitam de ajustes.
-
-![Dashboard-Cypress](https://user-images.githubusercontent.com/104467309/194905032-1920d698-f21c-45dc-bcbe-b626a5f6d18f.gif)
-
-O `CI` esta integrado com o `Cypress Dashboard` enviando os logs resultado dos testes com `evidências ex: video e screenshots` para armazenamento.<br/> 
-## Meu projeto no `Cypress.io`=> [Samurai Barber Shop](https://dashboard.cypress.io/projects/jq4ae3/runs/1/specs)
 
 ## :hammer_and_wrench: Tecnologias Utilizadas
 
