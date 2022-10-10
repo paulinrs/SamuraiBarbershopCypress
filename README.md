@@ -110,5 +110,26 @@ Após isso, é só escolher a `spec` desejada e assistir a execução dos testes
 
 
 
-## Feito com dedicação por <a href="https://www.linkedin.com/in/paulinnrs/">Paulo Roberto</a> :wave: Entre em contato!
+## Autor
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/GustavoMachado22">
+        <img src="https://avatars.githubusercontent.com/u/104467309?v=4" width="100px;" alt="Paulo Roberto"/>
+        <br />
+        <sub>
+          <b>Paulo Roberto</b>
+        </sub>
+       </a>
+       <br />
+    </td>
+  </tr>
+</table>
+ 
+ # 📫 Contato:
+  <a href="https://www.instagram.com/paulinnrs/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:paulinn.rs@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/paulinnrs/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+   <a href="https://twitter.com/paulin_rs/" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
 
