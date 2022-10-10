@@ -64,7 +64,7 @@ Os testes automatizados têm a função principal de verificar se o sistema est�
    └── package.json                      # configuração para a execução do cypress.                       
 ```   
 ## Continuos Test
-Com `Github Actions` criamos uma `PIPE`, que executa nosso projeto de automação a cada `PUSH`.<br/> 
+Com `Github Actions` criamos uma [PIPE](https://github.com/paulinrs/SamuraiBarbershopCypress/actions/workflows/chrome-ui-tests-.yml), que executa nosso projeto de automação a cada `PUSH`.<br/> 
 Podendo ser executado também manualmente no menu de Actions!<br/> 
 
 
