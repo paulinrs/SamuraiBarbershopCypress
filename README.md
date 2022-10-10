@@ -48,20 +48,21 @@ Os testes automatizados têm a função principal de verificar se o sistema est�
 
 ```ruby
    ├── .github/workflows                  
-     ├── cypress.yml                     # Arquivos do Github Actions para executar o CI.
+     ├── chrome-ui-tests-.yml            # Arquivos do Github Actions para executar o CI.
    ├── cypress 
      ├── fixtures                        # Massa de testes.
      ├── integration  
         ├── dash.spec.js                 # Suite de teste para agendamento de cliente.
         ├── login.spec.js                # Suite de teste para tela de login. 
         ├── onair.spec.js                # Suite de teste para webapp online.
-        ├── signup.spec.js               # Suite de teste para tela de cadastro.
         ├── recoverypass.spec.js         # Suite de teste para troca de senha.
-     ├── plugins                         # implementação page object.
-     ├── support                         # implementação page object.
+        ├── signup.spec.js               # Suite de teste para tela de cadastro.
+     ├── plugins                         # Implementação page object.
+     ├── support                         # Implementação page object.
    ├── README.md                         # Documentação do projeto.          
-   ├── cypress.json                      # configuração para a execução do cypress.            
-   └── package.json                      # configuração para a execução do cypress.                       
+   ├── cypress.json                      # Configuração para a execução do cypress.            
+   ├──package.json                       # Configuração para a execução do cypress.    
+   └── yarn.lock                         # Dependências para instalação do cypress na maquina virtual.
 ```   
 ## Continuos Test
 Com `Github Actions` criamos uma [PIPE](https://github.com/paulinrs/SamuraiBarbershopCypress/actions/workflows/chrome-ui-tests-.yml), que executa nosso projeto de automação a cada `PUSH`.<br/> 
