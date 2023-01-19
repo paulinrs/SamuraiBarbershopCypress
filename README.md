@@ -116,7 +116,7 @@ Após isso, é só escolher a `spec` desejada e assistir a execução dos testes
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/GustavoMachado22">
+      <a href="https://github.com/paulinrs">
         <img src="https://avatars.githubusercontent.com/u/104467309?v=4" width="100px;" alt="Paulo Roberto"/>
         <br />
         <sub>
